@@ -1,13 +1,13 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Multimedia from './components/multimedia'
+import Home from './components/home'
 import Layout from './components/layout'
 
 function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Multimedia />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Layout>
   )
